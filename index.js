@@ -26,6 +26,12 @@ for (let i = 0; i < 10000; i++) {
             let error = seedData[j][3] - output;
 
             // 每次求解完毕后，根据差距error进行调整权重weights
+            /**
+             * 在这里，调整的幅度取决于“差距”和“结果”
+             *
+             * 1.差距越大，调整的幅度也越大
+             * 2.对结果而言，output * (1 - output)是一个二次函数，如果结果越靠近0或1，幅度越小，反之越大
+             */
             let delta = error * output * (1 - output);
             weights[k] += seedData[j][k] * delta;
 
