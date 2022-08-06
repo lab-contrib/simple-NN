@@ -60,6 +60,7 @@ x1、x2、x3分别表示甲、乙、丙去不去的值，去就是1，不去是0
 
 具体的代码你可以查看：
 
+- JavaScript版本：[index-mulp.js](./index-mulp.js)
 - Python3版本：[index-mulp.py](./index-mulp.py)
 
 开源协议
