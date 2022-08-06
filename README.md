@@ -1,5 +1,5 @@
 # simple-NN
-一个最简单的神经网络前端实现例子
+一个简单的神经网络例子
 
 <p>
   <a href="https://github.com/lab-contrib/simple-NN/graphs/commit-activity" target='_blank'><img alt="GitHub repo commit" src="https://img.shields.io/github/last-commit/lab-contrib/simple-NN"></a>
