@@ -24,7 +24,7 @@
 
 我们的模型如下：
 
-<img src='./model.png' />
+<img src='./model-single.png' />
 
 x1、x2、x3分别表示甲、乙、丙去不去的值，去就是1，不去是0。输出y表示丁去不去的值。
 
@@ -36,8 +36,10 @@ x1、x2、x3分别表示甲、乙、丙去不去的值，去就是1，不去是0
 
 具体的代码你可以查看：
 
-- JavaScript版本：[index.js](./index.js)
-- Python3版本：[index.py](./index.py)
+- JavaScript版本：[index-single.js](./index-single.js)
+- Python3版本：[index-single.py](./index-single.py)
+
+这个例子中只有一个神经元（单节点神经网络），由此，对于复杂的情况，可能需要增加神经元的个数（也就是多层神经网络），那样，情况会比这里复杂的多的多。
 
 开源协议
 ---------------------------------------

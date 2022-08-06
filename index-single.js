@@ -40,7 +40,7 @@ for (let i = 0; i < 10000; i++) {
     }
 }
 
-let input = [1, 1, 0];
+let input = [1, 0, 0];
 
 console.log(weights);
 console.log(
